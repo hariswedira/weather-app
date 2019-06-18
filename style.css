@@ -21,3 +21,18 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.temperature {
+  flex-direction: column;
+}
+.temperature .degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.temperature .degree-section span {
+  margin: 10px;
+  font-size: 30px;
+}
+.temperature .degree-section h2 {
+  font-size: 40px;
+}
